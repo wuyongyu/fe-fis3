@@ -1,6 +1,9 @@
 FIS3
 ===
 
+- 是什么?
+  - 前端的工程构建系统
+
 - 解决什么问题？
   - 性能优化
   - 资源加载（异步、同步、按需、预加载、依赖管理、合并、内嵌）
@@ -15,8 +18,42 @@ FIS3
 npm install -g fis3
 ```
 
-- 启动项目
+---
+
+- 目录
 
 ```bash
-fis3 server start --type node
+fis3 server open
 ```
+
+---
+
+- 发布
+
+```bash
+fis3 release
+```
+
+---
+
+- 启动
+
+```bash
+fis3 server start
+```
+
+---
+
+- 浏览器自动刷新
+
+```bash
+fis3 release -wL
+```
+
+---
+
+参考资料
+---
+
+1. [fis3](https://github.com/fex-team/fis3)
+2. [fis3-demo](https://github.com/fex-team/fis3-demo)
